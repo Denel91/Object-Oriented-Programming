@@ -8,7 +8,7 @@ import java.util.Iterator;
 
 /**
  * This class provides an ADT for sets of int. IntSet is mutable, unbounded.
- * Un “bag”, o multi-insieme, è una struttura di dati che rappresenta un insieme
+ * Un multi-insieme, è una struttura di dati che rappresenta un insieme
  * con elementi che possono essere duplicati.
  */
 public class IntBag {
