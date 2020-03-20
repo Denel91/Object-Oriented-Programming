@@ -3,16 +3,35 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
-
     <groupId>groupId</groupId>
     <artifactId>Object-Oriented-Programming</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>Object Oriented Programming</name>
+    <licenses>
+        <license>
+            <name>The MIT License (MIT)</name>
+            <url>https://github.com/Denel91/Object-Oriented-Programming/blob/master/LICENSE.md</url>
+        </license>
+    </licenses>
+    <developers>
+        <developer>
+            <name>Daniele Di Salvo</name>
+            <email>disi91@hotmail.it</email>
+        </developer>
+    </developers>
     <properties>
         <project.build.sourceEncoding>windows-1252</project.build.sourceEncoding>
         <maven.compiler.source>1.13</maven.compiler.source>
         <maven.compiler.target>1.13</maven.compiler.target>
     </properties>
+    <profiles>
+        <profile>
+            <id>Development</id>
+            <activation>
+                <activeByDefault>true</activeByDefault>
+            </activation>
+        </profile>
+    </profiles>
     <build>
         <plugins>
             <plugin>
